@@ -1,3 +1,5 @@
+import pillowImage from "@/public/best-pillow.png";
+import socksImage from "@/public/best-socks.png";
 import { Product } from "./types";
 
 export const FREE_SHIPPING_THRESHOLD = 7500;
@@ -11,7 +13,7 @@ export const products: Product[] = [
     priceCents: 8900,
     description: "Zero-gravity memory foam pillow engineered for spinal alignment and pressure relief.",
     category: "Pillows",
-    image: "/best-pillow.png",
+    image: pillowImage,
     highlights: ["Spinal alignment contour", "Extreme softness", "Zero-gravity memory foam"],
   },
   {
@@ -20,7 +22,7 @@ export const products: Product[] = [
     priceCents: 3200,
     description: "Non-binding, moisture-wicking therapeutic socks for sensitive feet and daily comfort.",
     category: "Socks",
-    image: "/best-socks.png",
+    image: socksImage,
     highlights: ["Non-binding cuff", "Moisture control", "Seamless toe comfort"],
   },
 ];

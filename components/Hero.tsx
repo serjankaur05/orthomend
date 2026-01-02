@@ -1,6 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, Shield, Sparkles } from "lucide-react";
 import Container from "./Container";
+import pillowImage from "@/public/best-pillow.png";
 
 export default function Hero() {
   return (
@@ -38,10 +40,14 @@ export default function Hero() {
           <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-brand-100/70 blur-3xl" aria-hidden />
           <div className="absolute -bottom-16 -left-10 h-56 w-56 rounded-full bg-brand-50 blur-3xl" aria-hidden />
           <div className="relative">
-            <img
-              src="/best-pillow.png"
+            <Image
+              src={pillowImage}
               alt="OrthoMend Memory Foam Pillow packaging"
               className="h-full w-full rounded-2xl object-cover"
+              placeholder="blur"
+              sizes="(min-width: 1024px) 600px, 100vw"
+              priority
+              fill
             />
           </div>
         </div>

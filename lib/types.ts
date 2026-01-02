@@ -1,10 +1,12 @@
+import type { StaticImageData } from "next/image";
+
 export type Product = {
   slug: string;
   name: string;
   priceCents: number;
   description: string;
   category: "Pillows" | "Socks" | "Accessories";
-  image: string;
+  image: string | StaticImageData;
   highlights: string[];
 };
 

@@ -30,7 +30,7 @@ export default function ShopPage({ searchParams }: { searchParams: { category?: 
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Shop</p>
             <h1 className="text-3xl font-semibold text-slate-900">Orthopedic pillows, diabetic socks, accessories</h1>
-            <p className="text-sm text-slate-600">Secure Stripe checkout. Fast shipping across US and Canada.</p>
+            <p className="text-sm text-slate-600">Secure Stripe checkout. Fast shipping across Canada.</p>
           </div>
           <form className="flex flex-wrap gap-2">
             <select

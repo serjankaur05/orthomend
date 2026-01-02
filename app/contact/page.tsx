@@ -11,11 +11,11 @@ export default function ContactPage() {
         <div className="mt-6 grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
             <div className="text-sm font-semibold text-slate-900">Email</div>
-            <p className="text-sm text-slate-600">support@orthomend.com</p>
+            <p className="text-sm text-slate-600">pioneeressentials@yahoo.com</p>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
             <div className="text-sm font-semibold text-slate-900">Shipping & Returns</div>
-            <p className="text-sm text-slate-600">We ship from US hubs. Returns accepted within 30 days for unused items.</p>
+            <p className="text-sm text-slate-600">We are Canada-based and deliver across Canada. Returns accepted within 30 days for unused items.</p>
           </div>
         </div>
       </div>

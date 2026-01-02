@@ -15,7 +15,7 @@ export async function POST(request: Request) {
       payment_method_types: ["card"],
       allow_promotion_codes: true,
       shipping_address_collection: {
-        allowed_countries: ["US", "CA"],
+        allowed_countries: ["CA"],
       },
       shipping_options: shippingOptions,
       line_items: cart.map((item) => {

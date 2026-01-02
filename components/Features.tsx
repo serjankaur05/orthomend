@@ -10,7 +10,7 @@ const items = [
   {
     icon: <Truck className="h-5 w-5" />,
     title: "Fast, trackable shipping",
-    desc: "Ships from US hubs with standard and free options over $75.",
+    desc: "Canada-based fulfillment with standard and free options over $75.",
   },
   {
     icon: <Leaf className="h-5 w-5" />,

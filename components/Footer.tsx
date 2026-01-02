@@ -65,7 +65,7 @@ export default function Footer() {
           <div>© {new Date().getFullYear()} OrthoMend. All rights reserved.</div>
           <div className="flex gap-4">
             <span>Secure checkout with Stripe</span>
-            <span>Ships to US & Canada</span>
+            <span>Ships across Canada</span>
           </div>
         </div>
       </Container>
